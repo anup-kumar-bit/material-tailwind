@@ -2,7 +2,7 @@ export function ButtonWithIcon() {
   return (
     <div className="flex items-center gap-4">
       <button
-        className="flex select-none items-center gap-3 rounded-lg bg-gray-900 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+        className="flex items-center gap-2.5 rounded bg-slate-800 py-2.5 px-3.5 text-center text-sm text-white transition-all focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
         type="button"
       >
         <svg
@@ -22,7 +22,7 @@ export function ButtonWithIcon() {
         Add to Bookmark
       </button>
       <button
-        className="flex select-none items-center gap-3 rounded-lg bg-gradient-to-tr from-gray-900 to-gray-800 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+        className="flex items-center gap-2.5 rounded bg-gradient-to-r from-slate-800 to-slate-900 py-2.5 px-3.5 text-center text-sm text-white transition-all focus:from-slate-700 focus:to-slate-800 hover:from-slate-700 hover:to-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
         type="button"
       >
         <svg
@@ -42,10 +42,9 @@ export function ButtonWithIcon() {
         Upload Files
       </button>
       <button
-        className="flex select-none items-center gap-3 rounded-lg border border-gray-900 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-gray-900 transition-all hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+        className="flex items-center gap-2 rounded border box-content border-slate-800 py-2.5 px-3.5 text-center text-sm transition-all text-slate-800 leading-5 hover:text-white hover:bg-slate-700 hover:border-slate-700 focus:text-white focus:bg-slate-700 focus:border-slate-700 active:border-slate-700 active:text-white active:bg-slate-700 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
         type="button"
       >
-        Refresh
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -60,9 +59,10 @@ export function ButtonWithIcon() {
             d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99"
           ></path>
         </svg>
+        Refresh
       </button>
       <button
-        className="flex select-none items-center gap-2 rounded-lg px-6 py-3 text-center align-middle font-sans text-xs font-bold uppercase text-gray-900 transition-all hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+        className="flex items-center gap-2.5 rounded py-2.5 px-3.5 text-center text-sm text-slate-800 hover:text-slate-700 focus:text-slate-700 active:text-slate-700 leading-4 transition-all hover:bg-slate-50 focus:bg-slate-50 active:bg-slate-50 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
         type="button"
       >
         Read More
