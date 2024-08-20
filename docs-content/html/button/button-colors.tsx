@@ -2,28 +2,31 @@ export function ButtonColors() {
   return (
     <div className="flex w-max gap-4">
       <button
-        className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+        className="rounded bg-blue-500 py-2.5 px-3.5 text-center text-sm text-white leading-4 transition-all hover:bg-blue-600 focus:bg-blue-600 active:bg-blue-600 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
         type="button"
       >
-        color blue
+        Color Blue
       </button>
+
       <button
-        className="select-none rounded-lg bg-red-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-red-500/20 transition-all hover:shadow-lg hover:shadow-red-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+        className="rounded bg-red-500 py-2.5 px-3.5 text-center text-sm text-white leading-4 transition-all hover:bg-red-600 focus:bg-red-600 active:bg-red-600 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
         type="button"
       >
-        color red
+        Color Red
       </button>
+
       <button
-        className="select-none rounded-lg bg-green-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-green-500/20 transition-all hover:shadow-lg hover:shadow-green-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+        className="rounded bg-green-500 py-2.5 px-3.5 text-center text-sm text-white leading-4 transition-all hover:bg-green-600 focus:bg-green-600 active:bg-green-600 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
         type="button"
       >
-        color green
+        Color Green
       </button>
+
       <button
-        className="select-none rounded-lg bg-amber-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-black shadow-md shadow-amber-500/20 transition-all hover:shadow-lg hover:shadow-amber-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+        className="rounded bg-amber-500 py-2.5 px-3.5 text-center text-sm text-black font-bold leading-4 transition-all hover:bg-amber-600 focus:bg-amber-600 active:bg-amber-600 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
         type="button"
       >
-        color amber
+        Color Amber
       </button>
     </div>
   );
